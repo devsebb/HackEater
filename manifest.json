@@ -1,0 +1,16 @@
+{
+
+  "manifest_version": 2,
+  "name": "HackEater",
+  "version": "1.0",
+
+  "description": "replaces hackers with death eaters",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["hackeater.js"]
+    }
+  ]
+
+}
